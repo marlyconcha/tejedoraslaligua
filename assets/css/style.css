@@ -1,0 +1,378 @@
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    color: #161614;
+    font-size: 16px;
+}
+
+::selection {
+    background-color: #FFC107;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #C85B7F;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+/* BUTTONS */
+
+.btn {
+    background-color: #c73642 !important;
+    color: #ffffff !important;
+    border-radius: 0% !important;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #FFC107 !important;
+}
+
+/* INICIAL */
+
+.inicial {
+    background-color: #C85B7F;
+    height: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 576px) {
+
+
+    .inicial {
+        height: 30px;
+    }
+
+}
+
+/* PRE NAVBAR */
+
+.prenavbar {
+    background-color: #B388FF;
+    height: 70px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.logoimg {
+    height: 60px;
+}
+
+.form-control {
+    height: 30px;
+    border: none;
+    border-radius: 0%;
+}
+
+.input-group-append {
+    height: 30px;
+}
+
+.signup {
+    color: #ffffff;
+}
+
+.signup:hover {
+    color: #b1f8fc;
+}
+
+@media (min-width: 576px) {
+
+    .prenavbar {
+        background-color: #B388FF;
+        height: 50px;
+        padding: 10px;
+    }
+
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #25cad3 !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 2rem;
+}
+
+/* CAROUSEL */
+
+.carousel {
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.carousel-text-title {
+    background-color: #FFC107;
+    padding: 5px 10px;
+    font-size: 50px;
+}
+
+.carousel-text {
+    background-color: #25cad3;
+    padding: 2px 8px;
+    font-size: 30px;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+@media (min-width: 40em) {
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+/* ELEMENTOS */
+
+.items {
+    background-color: #0fabbc;
+    text-align: center;
+    padding: 30px 0px 60px 0px;
+}
+
+.elementos {
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.elemento {
+    background-color: #25cad3;
+    color: #ffffff;
+    font-size: 0.90rem;
+    margin: 10px 20px;
+    width: 180px;
+    height: 80px;
+    padding: 30px;
+    float: left;
+    text-align: center;
+}
+
+/* EMPRESAS */
+
+.empresas {
+    text-align: center;
+    padding: 30px 0px 60px 0px;
+}
+
+/* CARDS */
+
+.card {
+    border-radius: 0%;
+}
+
+.card-img-top {
+    border-radius: 0%;
+}
+
+.card-title {
+    color: #c73642;
+    font-weight: 700;
+    text-align: left;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+/* MAS PRODUCTOS */
+
+.masproductos {
+    background-color: #B388FF;
+    height: 360px;
+    padding: 30px 0px 0px 0px;
+}
+
+.titulotestimonio {
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.titulos {
+    color: #C85B7F;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.product {
+    height: 200px;
+    width: 200px;
+}
+
+.carousel-indicators {
+    bottom: 260px;
+}
+
+.carousel-indicators .active {
+    background-color: #ffffff;
+}
+
+.carousel-indicators li {
+    background-color: #ffffff(0, 0, 0, 0.5)
+}
+
+/* COMPROMISO */
+
+.compromiso {
+    background-color: #f7a5c0;
+    text-align: center;
+    padding: 30px 0px 60px 0px;
+    color: #C85B7F;
+}
+
+.iconcompromiso {
+    color: #C85B7F;
+}
+
+p.text-compromiso {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+/* TESTIMONIALS */
+
+.testimonios {
+    text-align: center;
+    padding: 30px 0px 60px 0px;
+    background-color: #B388FF;
+}
+
+.testimonial {
+    background-color: #ffffff;
+    width: 200px;
+    border: 15px solid #8f66d6;
+}
+
+.testimonial-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 1.3rem auto 1rem auto;
+}
+
+.titulotest {
+    color: #25cad3;
+    padding: 30px;
+}
+
+.star {
+    color: #25cad3;
+    text-align: start;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #25cad3 !important;
+    padding: 60px 0px 30px 0px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 90%;
+}
+
+i {
+    color: #ffffff;
+    width: 80px;
+    height: 53px;
+    margin: 0px 0px 0px 5px;
+}
+
+i.hab {
+    color: #000000;
+    width: 80px;
+    height: 53px;
+    margin: 0px 0px 0px 5px;
+}
+
+p.footer-brand {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 2.5rem;
+}
+
+ul li {
+    color: #740429;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    display: block;
+}
+
+.lista {
+    padding-left: 0;
+}
+
+.rrss {
+    padding-top: 0px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (min-width: 768px) {
+
+    .rrss {
+        padding-top: 60px;
+    }
+}
